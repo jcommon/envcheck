@@ -1,4 +1,4 @@
-jcommon.envcheck
+jcommon-envcheck
 =========
 
-Simple environment sanity check tool
+Java library for simple environment sanity checks.
