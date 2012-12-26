@@ -11,7 +11,7 @@
   <inceptionYear>2012</inceptionYear>
   <url>https://github.com/jcommon/envcheck/</url>
   <description>
-    Simple environment sanity check tool.
+    Java library for simple environment sanity check tool.
   </description>
 
   <scm>
