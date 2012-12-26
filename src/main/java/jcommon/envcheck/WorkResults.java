@@ -17,15 +17,9 @@
   limitations under the License.
 */
 
-package jenvcheck.work;
+package jcommon.envcheck;
 
-import jenvcheck.IWork;
-import jenvcheck.IWorkResult;
-import jenvcheck.WorkResults;
-
-public class SystemPath implements IWork<Boolean> {
-  @Override
-  public IWorkResult<Boolean> doWork() throws Throwable {
-    return WorkResults.TRUE;
-  }
+public final class WorkResults {
+  public static final IWorkResult<Boolean> TRUE = WorkResult.from(true);
+  public static final IWorkResult<Boolean> FALSE = WorkResult.from(false);
 }

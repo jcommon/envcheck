@@ -17,9 +17,16 @@
   limitations under the License.
 */
 
-package jenvcheck;
+package jcommon.envcheck;
 
-public final class WorkResults {
-  public static final IWorkResult<Boolean> TRUE = WorkResult.from(true);
-  public static final IWorkResult<Boolean> FALSE = WorkResult.from(false);
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+@SuppressWarnings("unchecked")
+public class WorkGraphTest {
+  @Test
+  public void testWorkGraph() {
+    assertTrue(true);
+  }
 }

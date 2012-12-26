@@ -17,16 +17,8 @@
   limitations under the License.
 */
 
-package jenvcheck;
+package jcommon.envcheck;
 
-import org.junit.Test;
-
-import static org.junit.Assert.*;
-
-@SuppressWarnings("unchecked")
-public class WorkGraphTest {
-  @Test
-  public void testWorkGraph() {
-    assertTrue(true);
-  }
+public interface IWorkResult<TResult extends Object> {
+  TResult getResult();
 }

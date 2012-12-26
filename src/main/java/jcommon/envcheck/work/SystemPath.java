@@ -17,9 +17,15 @@
   limitations under the License.
 */
 
-package jenvcheck;
+package jcommon.envcheck.work;
 
-import jdeps.DependencyGraph;
+import jcommon.envcheck.IWork;
+import jcommon.envcheck.IWorkResult;
+import jcommon.envcheck.WorkResults;
 
-public class WorkGraph extends DependencyGraph<IWork> {
+public class SystemPath implements IWork<Boolean> {
+  @Override
+  public IWorkResult<Boolean> doWork() throws Throwable {
+    return WorkResults.TRUE;
+  }
 }

@@ -17,10 +17,21 @@
   limitations under the License.
 */
 
-package jenvcheck;
+package jcommon.envcheck;
 
-import jdeps.IVertex;
+public class WorkResult<TResult extends Object> implements IWorkResult<TResult> {
+  private final TResult result;
 
-public interface IWork<TResult extends Object> extends IVertex {
-  IWorkResult<TResult> doWork() throws Throwable;
+  public WorkResult(TResult result) {
+    this.result = result;
+  }
+
+  @Override
+  public TResult getResult() {
+    return result;
+  }
+
+  public static <TResult extends Object> IWorkResult<TResult> from(TResult value) {
+    return new WorkResult<TResult>(value);
+  }
 }

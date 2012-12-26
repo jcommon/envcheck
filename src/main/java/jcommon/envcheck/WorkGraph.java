@@ -17,8 +17,9 @@
   limitations under the License.
 */
 
-package jenvcheck;
+package jcommon.envcheck;
 
-public interface IWorkResult<TResult extends Object> {
-  TResult getResult();
+import jcommon.deps.DependencyGraph;
+
+public class WorkGraph extends DependencyGraph<IWork> {
 }
