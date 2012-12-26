@@ -28,10 +28,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="jcommon-envcheck" />
         <module name="jenvcheck" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="jcommon-envcheck" target="1.6" />
       <module name="jenvcheck" target="1.6" />
     </bytecodeTargetLevel>
   </component>
