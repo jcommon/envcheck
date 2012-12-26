@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/jenvcheck.iml" filepath="$PROJECT_DIR$/jenvcheck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jcommon-envcheck.iml" filepath="$PROJECT_DIR$/jcommon-envcheck.iml" />
     </modules>
   </component>
 </project>
