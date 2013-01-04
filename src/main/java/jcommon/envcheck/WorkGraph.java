@@ -19,7 +19,7 @@
 
 package jcommon.envcheck;
 
-import jcommon.deps.DependencyGraph;
+import jcommon.graph.DirectedAcyclicGraph;
 
-public class WorkGraph extends DependencyGraph<IWork> {
+public class WorkGraph extends DirectedAcyclicGraph<IWork> {
 }

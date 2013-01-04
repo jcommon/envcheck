@@ -1,0 +1,20 @@
+<head><title>Welcome</title></head>
+
+JCommon Environment Check
+-------------
+
+Allows for the composition of simple environment checks in order to form more powerful higher-level constructs.
+Since it makes use of the jcommon-graph library, it can perform these checks concurrently but in correct topological
+order.
+
+To use this library, add the following snippet to your _pom_ file:
+
+```xml
+<dependencies>
+    <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>${project.artifactId}</artifactId>
+        <version>${project.version}</version>
+    </dependency>
+</dependencies>
+```

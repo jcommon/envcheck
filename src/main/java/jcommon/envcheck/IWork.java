@@ -19,7 +19,7 @@
 
 package jcommon.envcheck;
 
-import jcommon.deps.IVertex;
+import jcommon.graph.IVertex;
 
 public interface IWork<TResult extends Object> extends IVertex {
   IWorkResult<TResult> doWork() throws Throwable;
